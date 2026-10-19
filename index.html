@@ -114,6 +114,40 @@
             background: #0c0c0c;
         }
 
+        /* Official App Download Section */
+
+        .app-download {
+            text-align: center;
+            padding: 80px 20px;
+        }
+
+        .app-download h2 {
+            font-size: 30px;
+            margin-bottom: 25px;
+            color: white;
+        }
+
+        .download-button {
+            display: inline-block;
+            padding: 14px 35px;
+            background: linear-gradient(135deg, #0759c9, #1684ff);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-size: 17px;
+            font-weight: bold;
+            letter-spacing: 0.5px;
+            border: 1px solid #2d91ff;
+            box-shadow: 0 0 18px rgba(20, 120, 255, 0.35);
+            transition: 0.3s ease;
+            cursor: pointer;
+        }
+
+        .download-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 0 25px rgba(20, 120, 255, 0.55);
+        }
+
         footer {
             text-align: center;
             padding: 30px 20px;
@@ -186,13 +220,14 @@
         </p>
     </section>
 
-    <section id="app">
-        <h2>KCU App</h2>
-        <p>
-            The official KCU application will be available soon.
-        </p>
+    <!-- Official App Download -->
 
-        <a href="#" class="button">App Coming Soon</a>
+    <section id="app" class="app-download">
+        <h2>Download Official App</h2>
+
+        <button type="button" class="download-button">
+            Download
+        </button>
     </section>
 
     <section id="help">
